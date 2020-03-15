@@ -1,5 +1,3 @@
-Forked from https://github.com/XoddX/heatzy
-
 # heatzy
 
 A module for interacting with Heatzy devices
