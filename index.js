@@ -273,7 +273,9 @@ class Heatzy {
             this.token = body.token;
             this.tokenExpires = body.expire_at;
             return body.token;
-        })
+        }).catch((error) => {
+            return error; 
+        });
     }
 
     getDevices() {
